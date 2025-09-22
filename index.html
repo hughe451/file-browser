@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Browser</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <main class="container">
+        <h1>File Browser</h1>
+        <div class="table-container">
+            <table role="grid">
+                <thead>
+                    <tr>
+                        <th scope="col">File Icon</th>
+                        <th scope="col">File Name</th>
+                        <th scope="col">File Type</th>
+                        <th scope="col">File Size</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><i class="fa-solid fa-file-image"></i></td>
+                        <td><a href="image.png">image.png</a></td>
+                        <td>PNG</td>
+                        <td>45 KB</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-file-code"></i></td>
+                        <td><a href="example.html">example.html</a></td>
+                        <td>HTML</td>
+                        <td>2 KB</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-file-code"></i></td>
+                        <td><a href="data.json">data.json</a></td>
+                        <td>JSON</td>
+                        <td>1 KB</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-file-lines"></i></td>
+                        <td><a href="notes.txt">notes.txt</a></td>
+                        <td>Text</td>
+                        <td>0.5 KB</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-file-pdf"></i></td>
+                        <td><a href="document.pdf">document.pdf</a></td>
+                        <td>PDF</td>
+                        <td>12 KB</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <h2>Browser File Handling Observations</h2>
+        <ul>
+            <li>observation 1: The browser will open the file up in the same tab as the file browser.</li>
+            <li>observation 2: There is no reload of the page when the file is opened.</li>
+            <li>observation 3: There is no animation when the file is opened.</li>
+        </ul>
+    </main>
+</body>
+</html>
